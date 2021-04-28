@@ -8,12 +8,11 @@
 ```
 pip install -r requirements.txt
 ```
-##### Download Model [frozen_inference_graph.pb](https://github.com/datitran/object_detector_app/blob/master/object_detection/ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb)
-* Create folder ssd_mobilenet_v1_coco_11_06_2017
+* Create folder saved_model
 ```
-mkdir ssd_mobilenet_v1_coco_11_06_2017
+mkdir saved_model
 ```
-* Copy frozen_inference_graph.pb and paste in folder ssd_mobilenet_v1_coco_11_06_2017
+* Copy saved_model.pb and paste in folder saved_model
 ##### Run flask
 ```
 flask run
